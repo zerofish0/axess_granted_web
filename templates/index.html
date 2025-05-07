@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Axess Granted</title>
+  <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='icon.ico') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div id="login">
+    <h1>Axess Granted</h1>
+    <input type="text" id="username" placeholder="Identifiant">
+    <input type="password" id="password" placeholder="Mot de passe">
+    <button onclick="login()">Se connecter</button>
+    <p id="error"></p>
+  </div>
+
+  <div id="dashboard" style="display:none;">
+    <h1 id="greeting">Bonjour 👋</h1>
+
+    <div class="row">
+      <div class="section">
+        <h2>📝 Devoirs pour demain</h2>
+        <ul id="homework"></ul>
+      </div>
+      <div class="section">
+        <h2>📅 Cours de demain</h2>
+        <ul id="planner"></ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="section">
+        <h2>📈 Moyenne générale</h2>
+        <canvas id="averageCircle" width="200" height="200"></canvas>
+      </div>
+      <div class="section">
+        <h2>📊 Moyennes par matière</h2>
+        <canvas id="barChart" height="300"></canvas>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+</html>
