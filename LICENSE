@@ -1,21 +1,17 @@
-MIT License
+# LICENCE D’UTILISATION LIBRE AVEC ATTRIBUTION ET DÉCHARGE DE RESPONSABILITÉ
 
-Copyright (c) 2025 Zerofish🌊
+Copyright © Zerofish0 – 2025
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Le présent logiciel est mis à disposition gratuitement. Toute personne est autorisée à l'utiliser, le copier, le modifier, le fusionner, le publier, le distribuer, le vendre ou l'exploiter de quelque manière que ce soit, à condition de respecter les conditions suivantes :
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+## 1. Attribution
+Le nom de l’auteur original (Zerofish0) doit être mentionné de manière claire dans toute redistribution ou utilisation publique du code, y compris dans les versions modifiées.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+
+## 2. Décharge de responsabilité
+Ce logiciel est fourni "tel quel", sans aucune garantie d’aucune sorte, explicite ou implicite, y compris mais sans s’y limiter aux garanties de qualité marchande, d’adéquation à un usage particulier, ou d’absence d’erreur.
+L’auteur ne pourra en aucun cas être tenu responsable de tout dommage direct ou indirect résultant de l’utilisation de ce logiciel, y compris si le logiciel est utilisé en violation de lois ou de conditions d’utilisation tierces.
+
+
+## 3. Responsabilité de l’utilisateur
+L’utilisateur est seul responsable de vérifier qu’il a le droit légal d’utiliser le logiciel dans son contexte d’utilisation (ex. scraping, automatisation, etc.).
