@@ -3,9 +3,10 @@ from flask_cors import CORS
 import axess
 from datetime import datetime, timedelta
 import uuid
+import os
 
 app = Flask(__name__)
-app.secret_key = "une_clé_secrète_tres_forte_à_changer_en_prod"
+app.secret_key = os.urandom(24)
 app.config["SESSION_COOKIE_HTTPONLY"] = True
 app.config["SESSION_COOKIE_SAMESITE"] = "Lax"
 CORS(app, supports_credentials=True)
