@@ -49,6 +49,33 @@ button:hover {
   width: 80%;
   max-width: 600px;
 }
+.disclaimer-box {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #112233;
+  border-left: 4px solid #dc3545;
+  border-radius: 10px;
+  font-size: 0.9rem;
+
+}
+
+.disclaimer-box a {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+.disclaimer-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+#loginButton:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+  color: #666;
+}
 
 ul {
   list-style: none;
