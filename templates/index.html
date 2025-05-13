@@ -11,8 +11,22 @@
     <h1>Axess Granted</h1>
     <input type="text" id="username" placeholder="Identifiant">
     <input type="password" id="password" placeholder="Mot de passe">
-    <button onclick="login()">Se connecter</button>
+    <button onclick="login()" id="loginButton">Se connecter</button>
     <p id="error"></p>
+    <div id="login" class="disclaimer-box">
+        <strong>⚠️ Avertissement :</strong><br>
+        Cette application est un projet personnel et éducatif développé par <strong>Zerofish0</strong>. Elle utilise une technique automatisée pour accéder à des données issues du site d’un établissement scolaire (<em>web scraping</em>).<br><br>
+        L’auteur n’est pas affilié à l’établissement concerné et décline toute responsabilité en cas d’usage non conforme. En utilisant cette application, <strong>vous acceptez d’être seul responsable de vos actes</strong>.<br><br>
+        📄 Consultez la licence complète ici :  
+        <a href="https://github.com/zerofish0/axess_granted_web" target="_blank">
+          github.com/zerofish0/axess_granted_web
+        </a><br><br>
+
+        <label class="disclaimer-checkbox">
+          <input type="checkbox" id="consentCheckbox">
+          <span>J’ai lu et j’accepte les conditions ci-dessus.</span>
+        </label>
+    </div>
   </div>
 
   <div id="dashboard" style="display:none;">
@@ -40,6 +54,20 @@
       </div>
     </div>
   </div>
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const checkbox = document.getElementById("consentCheckbox");
+    const loginButton = document.getElementById("loginButton");
+
+    if (loginButton) loginButton.disabled = true;
+
+    if (checkbox && loginButton) {
+      checkbox.addEventListener("change", function () {
+        loginButton.disabled = !checkbox.checked;
+      });
+    }
+  });
+  </script>
 
 
   <script src="{{ url_for('static', filename='script.js') }}"></script>
