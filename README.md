@@ -1,4 +1,3 @@
-⚠️ PROJECT ARCHIVED ⚠️
 # Axess Granted (version web)
 Cliquez sur le lien ci dessous : 
 [Axess Granted](https://axess-granted-web.onrender.com/) It will not work anymore cause the school is not using axess anymore, but i'll try to come with another version, stay tuned !
